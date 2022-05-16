@@ -1,6 +1,6 @@
 namespace EmployeeProject
 {
-    public class CasualEmployeeDetails : Employee, IEmployeeDetails
+    public class CasualEmployee : Employee, IEmployeeDetails
     {
         public string GetEmployeeDetails(int employeeId)
         {
